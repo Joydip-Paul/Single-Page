@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&family=Varela+Round&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-area{
+    background-image: url('/Image/Home_Bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.hero-content{
+    color: #fff;
+}
+
+.hero-content{
+    padding-top: 5rem;
+}
+
+.hero-content h1{
+    font-weight: 900;
+}
+
+.hero-content p{
+    font-size: .8rem;
+}
+
+/* counter */
+.counter{
+    background-color: #FC2035;
+    color: #fff;
+    text-align: center;
+}
+
+/* card-area */
+.card-area{
+    background-color: #373434;
+}
+
+.single-card {
+    background-color: #fff;
+    margin: 2rem 0;
+}
+
+.single-card img{
+    width: 100%;
+}
+
+.single-card button{
+    border: none;
+    outline: none;
+    background-color: #FC2035;
+    padding: .8rem 1.2rem;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+.card-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-menu li img{
+    width: 2rem;
+}
+
+.card-menu li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .2rem 0;
+}
+
+.card-content-ratio{
+    color: #FC2035;
+    margin: 1rem 0;
+}
+
+.box{
+    border: 1px solid #fff;
+    padding: 1rem;
+    color: #fff;
+}
+
+.box2{
+    background-color: #000;
+}
+
+/* footer-area */
+.footer-area{
+    background-color: #1F2036;
+}
+
+.footer-content img{
+    width: 10%;
+}
+
+.footer-content span{
+    color: #898A85;
+}
+/* footer-area */
+
+/* Responsive Code */
+@media only screen and (max-width: 992px){
+    .single-card button{
+    padding: .5rem .8rem;
+    font-size: .6rem;
+}
+.card-menu li{
+    font-size: .8rem;
+}
+}
+
+@media only screen and (max-width: 768px){
+.single-card button{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+.single-card img{
+    width: 50%;
+}
+
+.single-card {
+    text-align: center;
+}
+
+.card-menu{
+    margin: 1rem 0;
+}
+
+.card-menu li{
+    font-size: 1rem;
+}
+.card-content-ratio{
+    font-size: 1.5rem;
+}
+.footer-content img{
+    width: 20%;
+}
+}
+
+@media only screen and (max-width: 400px){
+    .hero-content{
+    padding-top: 1rem;
+}
+    .hero-area{
+    height: 60vh;
+}
+    .hero-content h1{
+    font-weight: 900;
+}
+
+.hero-content p{
+    font-size: .5rem;
+}
+.box p{
+    font-size: 12px;
+}
+}
+/* Responsive Code */
