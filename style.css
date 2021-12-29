@@ -17,7 +17,7 @@ body{
     background-image: url('Image/Home_Bg.jpg');
     background-size: cover;
     height: 100vh;
-    object-fit: cover;
+    width: 100%;
 }
 
 .logo img{
@@ -152,21 +152,33 @@ body{
 .footer-content img{
     width: 20%;
 }
+.hero-content{
+    padding-top: 1rem;
+}
+.hero-area{
+    height: 50vh;
+}
+.hero-content h1{
+    font-weight: 900;
+}
+
+.hero-content p{
+    font-size: .5rem;
+}
 }
 
 @media only screen and (max-width: 400px){
     .hero-content{
     padding-top: 1rem;
 }
-    .hero-area{
-    height: 60vh;
+.hero-area{
+    height: 40vh;
 }
-    .hero-content h1{
-    font-weight: 900;
+.hero-content h1{
+    font-size: 1rem;
 }
-
 .hero-content p{
-    font-size: .5rem;
+    font-size: .4rem;
 }
 .box p{
     font-size: 12px;
