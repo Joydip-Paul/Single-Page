@@ -14,7 +14,7 @@ body{
 }
 
 .hero-area{
-    background-image: url('/Image/Home_Bg.jpg');
+    background-image: url('Image/Home_Bg.jpg');
     background-size: cover;
     height: 100vh;
     object-fit: cover;
