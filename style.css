@@ -61,9 +61,8 @@ body{
     width: 100%;
 }
 
-.single-card button{
-    border: none;
-    outline: none;
+.single-card a{
+    text-decoration: none;
     background-color: #FC2035;
     padding: .8rem 1.2rem;
     border-radius: .5rem;
@@ -117,7 +116,7 @@ body{
 
 /* Responsive Code */
 @media only screen and (max-width: 992px){
-    .single-card button{
+    .single-card a{
     padding: .5rem .8rem;
     font-size: .6rem;
 }
@@ -127,7 +126,7 @@ body{
 }
 
 @media only screen and (max-width: 768px){
-.single-card button{
+.single-card a{
     padding: .5rem 1rem;
     font-size: 1rem;
 }
