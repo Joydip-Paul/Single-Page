@@ -175,13 +175,28 @@ body{
     height: 40vh;
 }
 .hero-content h1{
-    font-size: 1rem;
+    font-size: .8rem;
 }
 .hero-content p{
     font-size: .4rem;
 }
 .box p{
     font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 320px){
+    .hero-content{
+    padding-top: .5rem;
+}
+    .hero-area{
+    height: 35vh;
+}
+.hero-content h1{
+    font-size: .5rem;
+}
+.hero-content p{
+    font-size: .3rem;
 }
 }
 /* Responsive Code */
